@@ -31,3 +31,16 @@ p, a {
   margin: 0;
   text-decoration: none;
 }
+
+p, a, span {
+  &::selection {
+    color: $black;
+    background-color: $lime;
+  }
+  
+  /* for firefox */
+  &::moz-selection {
+    color: $black;
+    background-color: $lime;
+  }
+}
