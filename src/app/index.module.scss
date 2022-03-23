@@ -1,0 +1,29 @@
+@import '/src/assets/scss/base/variables';
+
+.main{
+  max-width: 1440px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+
+  .first{
+    width: 20%;
+    border: 1px solid $white;
+    height: 100%;
+  }
+  
+  .second{
+    width: 20%;
+    border: 1px solid $white;
+    height: 100%;
+    flex-grow: 1;
+  }
+
+  .third{
+    width: 10%;
+    border: 1px solid $white;
+    height: 100%;
+  }
+}
